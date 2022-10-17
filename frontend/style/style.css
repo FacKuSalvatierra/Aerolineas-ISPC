@@ -1,5 +1,32 @@
+/* Colores seleccionados
+#324A5F
+#9BA7C0
+#6C809A
+#DBE0E6
+*/
+
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Alkalami', serif;
+}
+
+nav{
+    background-color: #324A5F;
+    font-size: 1.25rem;
+
+}
+nav a {
+    color: #ffff
+    
+}
+
+a {
+    background-color:#6C809A;
+    border: 2px solid;
+    box-shadow: 5px 5px 5px 5px;
+    padding: 50%
+
 }

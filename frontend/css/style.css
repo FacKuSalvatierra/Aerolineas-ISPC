@@ -13,13 +13,14 @@
 #logo {
     position: absolute;
     top: 3px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .avion{
-    width: 10%;
-    height: 5%;
-    position: absolute;
-    left: -35px;
-    bottom: 17px;
+    width: 5%;
+    height: 57%;
+    position: relative;
+    left: -15px;
+    bottom: 20px;
     filter: grayscale(10%) brightness(150%) saturate(10%) opacity(100%);
 
 }
@@ -150,6 +151,5 @@ label {
     background-color: coral;
     float: left;
 }
-
 
 

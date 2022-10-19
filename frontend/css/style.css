@@ -16,7 +16,7 @@
 }
 .avion{
     width: 10%;
-    height %;
+    height: 5%;
     position: absolute;
     left: -35px;
     bottom: 17px;
@@ -92,7 +92,6 @@ label {
 
 
 .cards {
-    display: inline-block;
     position: relative;
     float: left;
     width: 70%;
@@ -109,10 +108,9 @@ label {
 .city{
     float: left;
     text-align: center;
-    te
 }
 
-.tarjeta {
+.tarjeta{
     width: 100%;
     max-width: 600px;
     height: 45%;

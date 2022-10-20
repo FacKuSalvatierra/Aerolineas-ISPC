@@ -45,9 +45,10 @@ li > a {
   background-color: #111 !important;
   color: rgb(253, 122, 0);
 }
-label {
+.custom-control-label {
   display: inline-block;
   position: relative;
   left: 124px;
   bottom: -10px;
 }
+

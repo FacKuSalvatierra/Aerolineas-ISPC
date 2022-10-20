@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Navegador {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(45, 82, 170);
+    color: aliceblue;
+}
+
+#logo {
+    position: absolute;
+    top: 3px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.avion{
+    width: 5%;
+    height: 57%;
+    position: relative;
+    left: -15px;
+    bottom: 20px;
+    filter: grayscale(10%) brightness(150%) saturate(10%) opacity(100%);
+
+}
+
+.container-fluid {
+    position: relative;
+    top: 16px;
+}
+
+nav {
+    margin-right: 250px;
+    margin-left: 120px;
+}
+
+.nav-link {
+    color: white;
+    position: relative;
+    left: 119px;
+    bottom: -2px;
+
+}
+
+.nav-link:hover,
+.custom-control-label:hover {
+    color: rgb(255, 173, 50);
+}
+
+.form-switch .form-check-input {
+    position: relative;
+    left: 126px;
+    bottom: -10px;
+}
+
+[data-theme="dark"] {
+    background-color: #111 !important;
+    color: rgb(253, 122, 0);
+}
+
+label {
+    display: inline-block;
+    position: relative;
+    left: 124px;
+    bottom: -10px;
+}
+
+.Carousel {
+    position: relative;
+    width: 100%;
+    height: 583px;
+    font-size: 35px;
+
+}
+
+.carousel-caption {
+
+    box-shadow: 20px, 15px, 7px black;
+
+}
+
+.pais,
+.precio {
+    text-shadow: 3px 2px 4px rgba(0,0,0,1);
+}
+.tarjetas{
+    width: 50%;
+    height: 33%;
+    float: left;
+    background-color: white;
+}
+
+.foto_city{
+    width: 95%;
+    height: auto;
+    margin: 3px;
+    position: relative;
+    float: right;
+    top: 15px;
+    border-radius: 2px;
+}
+
+.Buscador {
+    position: relative;
+    width: 30%;
+    height: 690px;
+    float: left;
+    background-color: white;
+}
+
+
+.cards {
+    position: relative;
+    float: left;
+    width: 70%;
+    height: 690px;
+    background: #ffffff;
+}
+
+.foto_tarjeta {
+    width: 25%;
+    height: 50%;
+    float: left;
+
+}
+.city{
+    float: left;
+    text-align: center;
+}
+
+.tarjeta{
+    width: 100%;
+    max-width: 600px;
+    height: 45%;
+    margin: 3px;
+    float: left;
+    top: 20px;   
+
+
+
+}
+
+.btn-compra {
+    background-color: rgb(45, 82, 170);
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    color: white;
+    font-size: 13px;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 26%;
+    bottom: 0px;
+    text-decoration: none;
+    position: relative;
+    float: right;
+    top: -37px;
+    left: -323px;
+}
+
+.btn-compra:hover {
+    background-color:rgba(255, 255, 255, 95%);
+    color: #081F2D;
+    border-color: #081F2D;
+    transition: 0.3s;
+}
+
+.city_cards{
+    position: relative;
+    float: right;
+    top: -205px;
+    left: -25px;
+    color: beige;
+    font-size: 15px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,1);
+}
+
+.Footer {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(45, 82, 170);
+    float: left;
+}
+
+

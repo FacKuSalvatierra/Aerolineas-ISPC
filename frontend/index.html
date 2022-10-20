@@ -152,13 +152,12 @@
     </div>
   </div>
   </div>
-  <article>
        <!---Aca empieza la seccion donde se va a encontrar la parte de
         las card con los viajes-->
         <section>
           <!--Aca va a estar la parte donde se van a filtrar los viajes por precio,etc.-->
       
-              <header>
+              <header id="buscadorFiltros">
                 <label for="exampleDataList" class="form-label">Ingrese su lugar de orígen:</label>
                 <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
                 <datalist id="datalistOptions">
@@ -635,12 +634,12 @@
                     <option value="YU">Yugoslavia</option>
                     <option value="ZM">Zambia</option>
                     <option value="ZW">Zimbabue</option>
-                  </datalist>
-                </>
+                </datalist>
+              </header> 
                   
                 <!--Filtro de vuelos-->
       
-                <aside>
+                <aside id="filtro">
       
                   <div class="buscador">
                     <p>*Vuelos de menor a mayor costo</p>
@@ -667,7 +666,7 @@
                       </ul>
                     </div>
                   </div>
-                  </aside>
+                </aside>
                   
     
     <div class="cards">
@@ -711,7 +710,6 @@
 
     </div>
     
-  </article>
   <div class="Footer">Footer</div>
   <!-- JavaScript de bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

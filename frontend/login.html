@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBA FLY l Iniciar Sesión</title>
+  <link rel="stylesheet" href="./css/login_register.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="barra_navegacion">
+      <a href="" class="logo">CBA FLY <i class="uil uil-plane-departure"></i></a>
+      <div class="navegacion">
+        <div class="nav-items">
+          <i class="uil uil-times nav-close-btn"></i>
+          <a href="./index.html"><i class="uil uil-home"></i> Inicio</a>
+          <a href="./contacto.html"><i class="uil uil-comment"></i> Contacto</a>
+          <a href="./nosotros.html"><i class="uil uil-users-alt"></i> Sobre nosotros</a>
+          <a href="./login.html"><i class="uil uil-signin"></i> Iniciar sesion</a>
+        </div>
+      </div>
+      <i class="uil uil-apps nav-menu-btn"></i>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="container">
+      <div class="forms">
+        <div class="form login">
+          <span class="title">Iniciar sesión</span>
+
+          <form action="#">
+            <div class="input-field">
+              <input type="text" placeholder="Ingresa tu correo electrónico" required>
+              <i class="uil uil-envelope icon"></i>
+            </div>
+            <div class="input-field">
+              <input type="password" class="password" placeholder="Ingresa tu contraseña" required>
+              <i class="uil uil-lock icon"></i>
+              <i class="uil uil-eye-slash showHidePw"></i>
+            </div>
+
+            <div class="checkbox-text">
+              <div class="checkbox-content">
+                <input type="checkbox" id="logCheck">
+                <label for="logCheck" class="text">Recordarme</label>
+              </div>
+
+              <a href="#" class="text">Olvidé mi contraseña</a>
+            </div>
+
+            <div class="input-field button">
+              <input type="button" value="Iniciar sesión">
+            </div>
+          </form>
+
+          <div class="login-signup">
+            <span class="text">No tiene cuenta?
+              <a href="#" class="text signup-link">Regístrese ahora</a>
+            </span>
+          </div>
+        </div>
+
+        <!-- Registration Form -->
+        <div class="form signup">
+          <span class="title">Registro</span>
+
+          <form action="#">
+            <div class="input-field">
+              <input type="text" placeholder="Ingresa tu nombre" required>
+              <i class="uil uil-user"></i>
+            </div>
+            <div class="input-field">
+              <input type="email" placeholder="Ingresa tu correo electrónico" required>
+              <i class="uil uil-envelope icon"></i>
+            </div>
+            <div class="input-field">
+              <input type="password" class="password" placeholder="Crea una contraseña" required>
+              <i class="uil uil-lock icon"></i>
+            </div>
+            <div class="input-field">
+              <input type="password" class="password" placeholder="Confirmar contraseña" required>
+              <i class="uil uil-lock icon"></i>
+              <i class="uil uil-eye-slash showHidePw"></i>
+            </div>
+
+            <div class="checkbox-text">
+              <div class="checkbox-content">
+                <input type="checkbox" id="termCon">
+                <label for="termCon" class="text">Acepto los términos y condiciones</label>
+              </div>
+            </div>
+            <div class="checkbox-text">
+              <div class="checkbox-content">
+                <input type="checkbox" id="termCon">
+                <label for="termCon" class="text">Quiero recibir novedades y promociones especiales por correo electrónico</label>
+              </div>
+            </div>
+
+            <div class="input-field button">
+              <input type="button" value="Crear cuenta">
+            </div>
+          </form>
+
+          <div class="login-signup">
+            <span class="text">Ya tienes una cuenta?
+              <a href="#" class="text login-link">Inicia sesión</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="./js/login_register.js"></script>
+  <script src="./js/barra_navegacion.js"></script>
+
+</body>
+
+</html>

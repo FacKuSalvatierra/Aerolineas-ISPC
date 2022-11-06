@@ -129,16 +129,16 @@ header .nav-bar {
 
 .acercade{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     background: rgb(96,136,231);
     background: linear-gradient(142deg, rgba(96,136,231,1) 0%, rgba(6,24,59,1) 66%);
+    flex-wrap: wrap;
 }
 
 .acercade .lema{
     max-width: 500px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: white;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -156,30 +156,6 @@ header .nav-bar {
     max-width: 500px;
     filter: brightness(0.900);
     filter: blur(0.6px);
-    flex-wrap: wrap;
-}
-
-.acercade .avion img{
-    max-width: 500px;
-    flex-wrap: wrap;
-}
-
-.tarjetas{
-    background: rgb(6,24,59);
-    background: linear-gradient(225deg, rgba(6,24,59,1) 0%, rgba(43,70,129,1) 100%);
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 30px;
-    column-gap: 5px;
-    align-items: stretch;
-    justify-content: space-evenly;
-    padding-top: 31px;
-}
-
-.tarjeta_integrante:hover{
-    transition: 2s ease;
 }
 
 
@@ -189,28 +165,47 @@ header .nav-bar {
     font-size: 1.7rem;
 }
 
+.tarjetas{
+    background: rgb(6,24,59);
+    background: linear-gradient(225deg, rgba(6,24,59,1) 0%, rgba(43,70,129,1) 100%);
+    color: white;
+    text-align: center;
+    display: grid;
+    gap: 17px;
+    column-gap: 21px;
+    grid-auto-rows: 17rem;
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+    align-content: space-around;
+    justify-content: space-between;
+}
+
+.tarjeta_integrante:hover{
+    transition: 2s ease;
+}
+
 .tarjeta_integrante{
-    border:solid rgba(rgb(255, 215, 215), green, blue, alpha);
-    border-radius: 60px;
+    display: grid;
+    border-radius: 31px;
     flex-wrap: wrap;
-    width: 20%;
+    width: 100%;
     height: auto;
-    flex-direction: column;
     padding-bottom: 20px;
-    background: rgb(33,22,212);
     background: linear-gradient(90deg, rgba(33,22,212,1) 0%, rgba(255,255,255,1) 0%, rgba(237,241,255,1) 100%);
     color: black;
     padding-top: 20px;
+    align-items: center;
+    justify-items: center;
 }
 
 .tarjeta_integrante .foto_perfil{
     width: 60%;
     border-radius: 50%;
+    align-self: center;
+    justify-self: center;
 }
 
 .linkedin{
     width: 10%;
-    padding-top: 20px;
 }
 
 .tarjeta_integrante a{
@@ -219,16 +214,16 @@ header .nav-bar {
 }
 
 .rol{
-    margin: 2px;
-    font-size: 1.1rem;
     font-weight: 400;
 }
 
-.nombre{
-    font-size: 1.3rem;
-    text-align: center;
-    flex: 1 1 auto;
-    padding: 2px;
+.tarjeta_integrante .nombre{
+    max-height: 35px;
+    max-width: 300px;
+}
+
+.tarjeta_integrante img{
+    position: relative;
 }
 
 
@@ -255,6 +250,10 @@ header .nav-bar {
 
     .bg-slider-thumbs {
         bottom: 3em;
+    }
+
+    .avion{
+        width: 300px;
     }
 }
 
@@ -290,6 +289,11 @@ header .nav-bar {
 
     .swiper-slide .text-content p {
         font-size: 0.9em;
+    }
+
+    .avion{
+        position: relative;
+        top: 40px
     }
 
     /*======= Navigation menu =======*/
@@ -374,7 +378,6 @@ header .nav-bar {
         padding: 5px 15px;
     }
 
-    /*======= About section =======*/
     .about h2 {
         font-size: 2.5em;
     }
@@ -382,4 +385,19 @@ header .nav-bar {
     .about p {
         font-size: 0.9em;
     }
+
+    .tarjetas{
+        background: rgb(6,24,59);
+        background: linear-gradient(225deg, rgba(6,24,59,1) 0%, rgba(43,70,129,1) 100%);
+        color: white;
+        text-align: center;
+        display: grid;
+        gap: 17px;
+        column-gap: 21px;
+        grid-auto-rows: 14rem;
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+        align-content: space-around;
+        justify-content: space-between;
+    }
+
 }

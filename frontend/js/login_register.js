@@ -1,3 +1,10 @@
+const container = document.querySelector(".container"),
+    pwShowHide = document.querySelectorAll(".showHidePw"),
+    pwFields = document.querySelectorAll(".password"),
+    signUp = document.querySelector(".signup-link"),
+    login = document.querySelector(".login-link");
+
+
 //   Mostrar / ocultar contraseña
 pwShowHide.forEach(eyeIcon => {
     eyeIcon.addEventListener("click", () => {
@@ -18,6 +25,7 @@ pwShowHide.forEach(eyeIcon => {
         })
     })
 })
+
 
 // Registro e inicio de sesion
 signUp.addEventListener("click", () => {

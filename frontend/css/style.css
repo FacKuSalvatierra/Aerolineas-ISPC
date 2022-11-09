@@ -559,7 +559,7 @@ footer {
 /* H1 de Redes Sociales*/
 .column3 h1 {
   font-size: 22px;
-  text-align: center;
+  text-align:center;
 }
 
 /*Íconos de Redes Sociales*/
@@ -567,15 +567,16 @@ i {
   color: rgb(238, 232, 227);
   align-items: center;
   padding-left: 26px;
+  
 }
 
-.icono i:hover{
+.icono i:hover {
   color: #14b1b2;
 }
 
 /*Nombres de redes sociales*/
 .redes .icono label {
-  margin-left: 5px;
+  margin-left: 15px;
   color: #c7c7c7;
 }
 
@@ -607,7 +608,7 @@ i {
   color: white;
 }
 
-.information a:hover{
+.information a:hover {
   color: #14b1b2;
 }
 

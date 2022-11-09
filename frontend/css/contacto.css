@@ -347,6 +347,7 @@ footer {
 /*H1 del contendor nombre de la empresa*/
 .column1 h1 {
   font-size: 22px;
+  color: white;
 }
 
 /*Ícono de avión*/
@@ -363,6 +364,7 @@ footer {
 .column2 h1 {
   font-size: 22px;
   text-align: center;
+  color: white;
 }
 
 /*Imagenes de medios de pago*/
@@ -384,6 +386,7 @@ footer {
 .column3 h1 {
   font-size: 22px;
   text-align: center;
+  color: white;
 }
 
 /*Íconos de Redes Sociales*/

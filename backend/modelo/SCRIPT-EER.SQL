@@ -27,11 +27,11 @@ CREATE TABLE IF NOT EXISTS `mydb`.`Usuario Registrado` (
   `idUsuariosRegistrados` INT NOT NULL,
   `Nombre` VARCHAR(16) NOT NULL,
   `Apellido` VARCHAR(255) NOT NULL,
-  `Contraseña` INT NOT NULL,
+  `Contrasena` INT NOT NULL,
   `Email` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`idUsuariosRegistrados`),
   UNIQUE INDEX `id_UNIQUE` (`idUsuariosRegistrados` ASC) VISIBLE,
-  UNIQUE INDEX `Contraseña_UNIQUE` (`Contraseña` ASC) VISIBLE,
+  UNIQUE INDEX `Contrasena_UNIQUE` (`Contrasena` ASC) VISIBLE,
   UNIQUE INDEX `Email_UNIQUE` (`Email` ASC) VISIBLE);
 
 
@@ -111,7 +111,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `mydb`.`Datos deTarjeta`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`Datos deTarjeta` (
+CREATE TABLE IF NOT EXISTS `mydb`.`DatosdeTarjeta` (
   `idDatosdeTarjeta` INT NOT NULL,
   `Nombre` VARCHAR(45) NULL,
   `TipoTarjeta` VARCHAR(45) NULL,

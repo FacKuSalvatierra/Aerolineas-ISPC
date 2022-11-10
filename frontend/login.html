@@ -42,11 +42,11 @@
 
           <form action="#">
             <div class="input-field">
-              <input type="text" placeholder="Ingresa tu correo electrónico" required>
+              <input type="text" placeholder="Ingresa tu correo electrónico" required id="email_login">
               <i class="uil uil-envelope icon"></i>
             </div>
             <div class="input-field">
-              <input type="password" class="password" placeholder="Ingresa tu contraseña" required>
+              <input type="password" id="password_login" placeholder="Ingresa tu contraseña" required>
               <i class="uil uil-lock icon"></i>
               <i class="uil uil-eye-slash showHidePw"></i>
             </div>
@@ -61,7 +61,7 @@
             </div>
 
             <div class="input-field button">
-              <input type="button" value="Iniciar sesión">
+              <input type="button" value="Iniciar sesión" onclick="validar_inicio()">
             </div>
           </form>
 
@@ -78,26 +78,26 @@
 
           <form action="#">
             <div class="input-field">
-              <input type="text" placeholder="Ingresa tu nombre" required>
+              <input type="text" placeholder="Ingresa tu nombre y apellido" required minlength="3" maxlength="30" id="name_register">
               <i class="uil uil-user"></i>
             </div>
             <div class="input-field">
-              <input type="email" placeholder="Ingresa tu correo electrónico" required>
+              <input type="email" placeholder="Ingresa tu correo electrónico" required id="email_register">
               <i class="uil uil-envelope icon"></i>
             </div>
             <div class="input-field">
-              <input type="password" class="password" placeholder="Crea una contraseña" required>
+              <input type="password" placeholder="Crea una contraseña" required minlength="5" maxlength="14" id="password_register">
               <i class="uil uil-lock icon"></i>
             </div>
             <div class="input-field">
-              <input type="password" class="password" placeholder="Confirmar contraseña" required>
+              <input type="password" placeholder="Confirmar contraseña" required minlength="5" maxlength="14" id="password_register_conf">
               <i class="uil uil-lock icon"></i>
               <i class="uil uil-eye-slash showHidePw"></i>
             </div>
 
             <div class="checkbox-text">
               <div class="checkbox-content">
-                <input type="checkbox" id="termCon">
+                <input type="checkbox" id="term" required>
                 <label for="termCon" class="text">Acepto los términos y condiciones</label>
               </div>
             </div>
@@ -110,7 +110,7 @@
             </div>
 
             <div class="input-field button">
-              <input type="button" value="Crear cuenta">
+              <input type="button" value="Crear cuenta" onclick="validar_registro()">
             </div>
           </form>
 

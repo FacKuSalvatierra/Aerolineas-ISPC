@@ -229,7 +229,7 @@ h3 {
 
 .box {
   padding: 25px 70px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.905);
   -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
   border-radius: 50px;
@@ -277,25 +277,6 @@ label.error {
   color: #000;
 }
 
-/*bi-instagram {
-  color: transparent;
-  background: radial-gradient(circle at 30% 107%,
-      #fdf497 0%,
-      #fdf497 5%,
-      #fd5949 45%,
-      #d6249f 60%,
-      #285aeb 90%);
-  background: -webkit-radial-gradient(circle at 30% 107%,
-      #fdf497 0%,
-      #fdf497 5%,
-      #fd5949 45%,
-      #d6249f 60%,
-      #285aeb 90%);
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-*/
-
 .form-switch .form-check-input {
   position: relative;
   left: 126px;
@@ -312,12 +293,6 @@ label {
 }
 
 /*FOOTER*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
 
 footer {
   background-color: #202020;
@@ -333,10 +308,16 @@ footer {
   padding: 40px;
 }
 
+.container-body h1{
+  color: white;
+}
+
 /*contendor de las columnas*/
 .container-body {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
 }
 
 /*Contendor de nombre de la empresa*/
@@ -347,7 +328,6 @@ footer {
 /*H1 del contendor nombre de la empresa*/
 .column1 h1 {
   font-size: 22px;
-  color: white;
 }
 
 /*Ícono de avión*/
@@ -364,7 +344,6 @@ footer {
 .column2 h1 {
   font-size: 22px;
   text-align: center;
-  color: white;
 }
 
 /*Imagenes de medios de pago*/
@@ -386,7 +365,6 @@ footer {
 .column3 h1 {
   font-size: 22px;
   text-align: center;
-  color: white;
 }
 
 /*Íconos de Redes Sociales*/

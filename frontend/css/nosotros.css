@@ -104,7 +104,7 @@ header .nav-bar {
     margin-right: 45px;
 }
 
-.navegacion .nav-items a:nth-child(4){
+.navegacion .nav-items a:nth-child(4) {
     background-color: #ffffff;
     padding: 3px 10px 3px 10px;
     border-radius: 50px;
@@ -127,16 +127,16 @@ header .nav-bar {
     background: linear-gradient(transparent, var(--section-bg-color));
 }
 
-.acercade{
+.acercade {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: rgb(96,136,231);
-    background: linear-gradient(142deg, rgba(96,136,231,1) 0%, rgba(6,24,59,1) 66%);
+    background: rgb(96, 136, 231);
+    background: linear-gradient(142deg, rgba(96, 136, 231, 1) 0%, rgba(6, 24, 59, 1) 66%);
     flex-wrap: wrap;
 }
 
-.acercade .lema{
+.acercade .lema {
     max-width: 500px;
     font-size: 1.2rem;
     color: white;
@@ -152,22 +152,22 @@ header .nav-bar {
 }
 
 
-.acercade .avion{
+.acercade .avion {
     max-width: 500px;
     filter: brightness(0.900);
     filter: blur(0.6px);
 }
 
 
-.fondo_nosotros h1{
+.fondo_nosotros h1 {
     padding-bottom: 20px;
     padding-top: 20px;
     font-size: 1.7rem;
 }
 
-.tarjetas{
-    background: rgb(6,24,59);
-    background: linear-gradient(225deg, rgba(6,24,59,1) 0%, rgba(43,70,129,1) 100%);
+.tarjetas {
+    background: rgb(6, 24, 59);
+    background: linear-gradient(225deg, rgba(6, 24, 59, 1) 0%, rgba(43, 70, 129, 1) 100%);
     color: white;
     text-align: center;
     display: grid;
@@ -180,153 +180,149 @@ header .nav-bar {
     padding-bottom: 20px;
 }
 
-.tarjeta_integrante:hover{
+.tarjeta_integrante:hover {
     transition: 2s ease;
 }
 
-.tarjeta_integrante{
+.tarjeta_integrante {
     display: grid;
     border-radius: 31px;
     flex-wrap: wrap;
     width: 100%;
     height: auto;
     padding-bottom: 20px;
-    background: linear-gradient(90deg, rgba(33,22,212,1) 0%, rgba(255,255,255,1) 0%, rgba(237,241,255,1) 100%);
+    background: linear-gradient(90deg, rgba(33, 22, 212, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(237, 241, 255, 1) 100%);
     color: black;
     padding-top: 20px;
     align-items: center;
     justify-items: center;
 }
 
-.tarjeta_integrante .foto_perfil{
+.tarjeta_integrante .foto_perfil {
     width: 60%;
     border-radius: 50%;
     align-self: center;
     justify-self: center;
 }
 
-.linkedin{
+.linkedin {
     width: 10%;
 }
 
-.tarjeta_integrante a{
+.tarjeta_integrante a {
     display: flex;
     justify-content: center;
 }
 
-.rol{
+.rol {
     font-weight: 400;
 }
 
-.tarjeta_integrante .nombre{
+.tarjeta_integrante .nombre {
     max-height: 35px;
     max-width: 300px;
 }
 
-.tarjeta_integrante img{
+.tarjeta_integrante img {
     position: relative;
 }
 
 /*FOOTER*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-  }
-  
-  footer {
+footer {
     background-color: #202020;
     color: white;
     margin-top: auto;
-  }
-  
-  /*Contenedor general*/
-  .container-footer-all {
+}
+
+/*Contenedor general*/
+.container-footer-all {
     width: 100%;
     max-width: 1500px;
     margin: auto;
     padding: 40px;
-  }
-  
-  /*contendor de las columnas*/
-  .container-body {
+}
+
+/*contendor de las columnas*/
+.container-body {
     display: flex;
-    justify-content: space-between;
-  }
-  
-  /*Contendor de nombre de la empresa*/
-  .column1 {
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+/*Contendor de nombre de la empresa*/
+.column1 {
     max-width: 500px;
-  }
-  
-  /*H1 del contendor nombre de la empresa*/
-  .column1 h1 {
+}
+
+/*H1 del contendor nombre de la empresa*/
+.column1 h1 {
     font-size: 22px;
-  }
-  
-  /*Ícono de avión*/
-  .column1 .uil {
+}
+
+/*Ícono de avión*/
+.column1 .uil {
     padding-left: 3px;
-  }
-  
-  /*Conteneddor de Medios de Pago*/
-  .column2 {
+}
+
+/*Conteneddor de Medios de Pago*/
+.column2 {
     max-width: 500px;
-  }
-  
-  /*H1 de medios de pago*/
-  .column2 h1 {
+}
+
+/*H1 de medios de pago*/
+.column2 h1 {
     font-size: 22px;
     text-align: center;
-  }
-  
-  /*Imagenes de medios de pago*/
-  .column2 .tarjetas1 img {
+}
+
+/*Imagenes de medios de pago*/
+.column2 .tarjetas1 img {
     width: 65px;
     height: 46px;
-  }
-  
-  /*Contenedor de redes sociales */
-  .column3 {
+}
+
+/*Contenedor de redes sociales */
+.column3 {
     max-width: 500px;
-  }
-  
-  .icono li {
+}
+
+.icono li {
     list-style-type: none;
-  }
-  
-  /* H1 de Redes Sociales*/
-  .column3 h1 {
+}
+
+/* H1 de Redes Sociales*/
+.column3 h1 {
     font-size: 22px;
     text-align: center;
-  }
-  
-  /*Íconos de Redes Sociales*/
-  i {
+}
+
+/*Íconos de Redes Sociales*/
+i {
     color: rgb(238, 232, 227);
     align-items: center;
     padding-left: 26px;
-  }
-  
-  .icono i:hover{
+}
+
+.icono i:hover {
     color: #14b1b2;
-  }
-  
-  /*Nombres de redes sociales*/
-  .redes .icono label {
+}
+
+/*Nombres de redes sociales*/
+.redes .icono label {
     margin-left: 5px;
     color: #c7c7c7;
-  }
-  
-  /*Contenedor de footer, copyright e información*/
-  .container-footer {
+    font-weight: 400 !important;
+}
+
+/*Contenedor de footer, copyright e información*/
+.container-footer {
     max-width: 100%;
     background-color: #101010;
-  }
-  
-  /*Contenedor de Copy y Privacidad*/
-  .footer1 {
+}
+
+/*Contenedor de Copy y Privacidad*/
+.footer1 {
     max-width: 1500px;
     margin: auto;
     display: flex;
@@ -334,41 +330,43 @@ header .nav-bar {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 10px;
-  }
-  
-  /*Copyright*/
-  .copyright {
+}
+
+/*Copyright*/
+.copyright {
     color: #b1a8a8de;
-  }
-  
-  /*Política y Privacidad*/
-  .information a {
+}
+
+/*Política y Privacidad*/
+.information a {
     text-decoration: none;
     color: white;
-  }
-  
-  .information a:hover{
+}
+
+.information a:hover {
     color: #14b1b2;
-  }
-  
-  /**Responsive Footer**/
-  @media screen and (max-width: 640px) {
+}
+
+/**Responsive Footer**/
+@media screen and (max-width: 640px) {
     .container-body {
-      flex-wrap: wrap;
+        flex-wrap: wrap;
     }
+
     .column2,
     .column3 {
-      margin-top: 40px;
+        margin-top: 40px;
     }
-  
+
     .column2 h1 {
-      font-size: 22px;
-      text-align: left;
+        font-size: 22px;
+        text-align: left;
     }
+
     .column1 {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
 
 
 /*======= Media queries (max-width: 1100px) =======*/
@@ -394,7 +392,7 @@ header .nav-bar {
         bottom: 3em;
     }
 
-    .avion{
+    .avion {
         width: 300px;
     }
 }
@@ -433,7 +431,7 @@ header .nav-bar {
         font-size: 0.9em;
     }
 
-    .avion{
+    .avion {
         position: relative;
         top: 40px
     }
@@ -528,9 +526,9 @@ header .nav-bar {
         font-size: 0.9em;
     }
 
-    .tarjetas{
-        background: rgb(6,24,59);
-        background: linear-gradient(225deg, rgba(6,24,59,1) 0%, rgba(43,70,129,1) 100%);
+    .tarjetas {
+        background: rgb(6, 24, 59);
+        background: linear-gradient(225deg, rgba(6, 24, 59, 1) 0%, rgba(43, 70, 129, 1) 100%);
         color: white;
         text-align: center;
         display: grid;

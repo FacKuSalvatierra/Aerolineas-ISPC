@@ -128,6 +128,117 @@ header .barra_navegacion {
   color: black;
 }
 
+/*MODO OSCURO*/
+.switchDark {
+  border: none;
+  
+  background-color: #010507;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  border-radius: 100px;
+  align-items: center;
+}
+
+.switchDark span i {
+  align-items: center;
+  padding-left: 1px;
+  padding-bottom: 2px;
+;
+}
+.fa-sun {
+  margin-left: 1px;
+  
+}
+.fa-moon {
+  padding-right: 3px;
+
+}
+
+.switchDark span {
+  width: 25px;
+  height: 25px;
+  color: #fff;
+  line-height: 25px;
+  background: none;
+}
+
+.switchDark::after {
+  margin-top: 2px;
+  background: #fffbf5;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0px;
+  right: unset;
+  border-radius: 100%;
+  transition: all 0.9s ease;
+  box-shadow: 0 0 1.5px 1.5px rgba(0, 0, 0, 0.1);
+  content: "";
+  
+}
+
+.switchDark.active {
+  background:orange;
+}
+
+.switchDark.active::after {
+  left: unset;
+  right: 1px;
+  border-radius: 100%;
+  position: absolute;
+  content: "";
+  
+  
+}
+
+.dark .swiper-wrapper{
+  background:#0d2227;
+}
+
+.dark .home{
+  background: rgb(1, 17, 17) ;
+}
+
+.dark input{
+  background: rgb(1, 17, 17) ;
+
+}
+.dark main{
+  background: rgb(1, 17, 17) ;
+  color: #fff;
+}
+
+.dark footer{
+ background:rgb(0, 3, 10);
+}
+
+.dark .contenedor{
+  background: rgb(1, 17, 17);
+}
+
+.dark .card1{
+  background: #0d2227;
+}
+
+.dark .card2{
+  background: #0d2227;
+}
+
+.dark .card3{
+  background: #0d2227;
+}
+.dark .card4{
+  background: #0d2227;
+}
+.dark .card5{
+  background: #0d2227;
+}
+.dark .card6{
+  background: #0d2227;
+}
+
+
 /*======= Inicio  =======*/
 .home {
   min-height: 100vh;
@@ -637,6 +748,44 @@ footer {
   .column1 {
     width: 100%;
   }
+}
+
+/**Responsive Footer**/
+@media screen and (max-width: 640px) {
+  .container-body {
+    flex-wrap: wrap;
+  }
+  .column2,
+  .column3 {
+    margin-top: 40px;
+  }
+
+  .column2 h1 {
+    font-size: 22px;
+    text-align: left;
+  }
+  .column1 {
+    width: 100%;
+  }
+  .switchDark{
+    width: 40px;
+    display: flex;
+    float: right;
+    justify-content: space-between;
+     margin-left: 115px;
+  }
+  .switchDark::after{
+    margin-top: 1px;
+  }
+}
+@media screen and (max-width:786px){
+
+.switchDark{
+  width: 40px;
+  display: flex;
+  float: right;
+  justify-content: space-between;
+   margin-left: 115px;
 }
 
 /*======= Media queries (max-width: 1100px) =======*/

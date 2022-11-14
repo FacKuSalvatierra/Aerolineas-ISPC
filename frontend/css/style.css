@@ -238,6 +238,10 @@ header .barra_navegacion {
   background: #0d2227;
 }
 
+.dark .calendario{
+  background:#fff ;
+
+}
 
 /*======= Inicio  =======*/
 .home {
@@ -772,7 +776,7 @@ footer {
     display: flex;
     float: right;
     justify-content: space-between;
-     margin-left: 115px;
+     margin-left: 120px;
   }
   .switchDark::after{
     margin-top: 1px;
@@ -786,7 +790,7 @@ footer {
   display: flex;
   float: right;
   justify-content: space-between;
-   margin-left: 115px;
+   margin-left: 103px;
 }
 
 /*======= Media queries (max-width: 1100px) =======*/

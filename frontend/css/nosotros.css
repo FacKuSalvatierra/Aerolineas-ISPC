@@ -171,12 +171,13 @@ header .nav-bar {
     color: white;
     text-align: center;
     display: grid;
-    gap: 17px;
-    column-gap: 21px;
-    grid-auto-rows: 17rem;
-    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
-    align-content: space-around;
-    justify-content: space-between;
+    gap: 30px;
+    column-gap: 100px;
+    grid-auto-rows: 20rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
     padding-bottom: 20px;
 }
 
@@ -188,7 +189,7 @@ header .nav-bar {
     display: grid;
     border-radius: 31px;
     flex-wrap: wrap;
-    width: 100%;
+    width: 80%;
     height: auto;
     padding-bottom: 20px;
     background: linear-gradient(90deg, rgba(33, 22, 212, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(237, 241, 255, 1) 100%);
@@ -196,6 +197,7 @@ header .nav-bar {
     padding-top: 20px;
     align-items: center;
     justify-items: center;
+    align-content: center;
 }
 
 .tarjeta_integrante .foto_perfil {
@@ -203,6 +205,7 @@ header .nav-bar {
     border-radius: 50%;
     align-self: center;
     justify-self: center;
+    align-items: center;
 }
 
 .linkedin {
@@ -349,6 +352,18 @@ i {
 
 /**Responsive Footer**/
 @media screen and (max-width: 640px) {
+
+    .tarjetas {
+        gap: 10px;
+        column-gap: 20px;
+        grid-auto-rows: 10rem;
+        grid-template-columns: repeat(auto-fill, minmax(1rem, 1fr));
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+
+    }
+
     .container-body {
         flex-wrap: wrap;
     }
@@ -365,6 +380,10 @@ i {
 
     .column1 {
         width: 100%;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        padding-left: auto;
     }
 }
 
@@ -395,9 +414,20 @@ i {
     .avion {
         width: 300px;
     }
+    
+    .tarjetas {
+        gap: 20px;
+        column-gap: 80px;
+        grid-auto-rows: 17rem;
+        grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+
+    }
 }
 
-/*======= Media queries (max-width: 785px) =======*/
+/*======= Media queries (max-width: 786px) =======*/
 @media screen and (max-width: 785px) {
     header .nav-bar {
         padding: 25px 20px;
@@ -434,6 +464,17 @@ i {
     .avion {
         position: relative;
         top: 40px
+    }
+
+    .tarjetas {
+        gap: 20px;
+        column-gap: 50px;
+        grid-auto-rows: 17rem;
+        grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+
     }
 
     /*======= Navigation menu =======*/
@@ -526,18 +567,6 @@ i {
         font-size: 0.9em;
     }
 
-    .tarjetas {
-        background: rgb(6, 24, 59);
-        background: linear-gradient(225deg, rgba(6, 24, 59, 1) 0%, rgba(43, 70, 129, 1) 100%);
-        color: white;
-        text-align: center;
-        display: grid;
-        gap: 17px;
-        column-gap: 21px;
-        grid-auto-rows: 14rem;
-        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
-        align-content: space-around;
-        justify-content: space-between;
+
     }
 
-}

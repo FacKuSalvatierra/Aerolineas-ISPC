@@ -46,10 +46,17 @@
 
 body {
 
+
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+
   font-family: 'Poppins', sans-serif;
 }
 
 body{
+
 
   margin: 0;
   padding: 0;
@@ -135,7 +142,6 @@ header .barra_navegacion {
   margin-right: 45px;
 }
 
-
 .navegacion .nav-items a:nth-child(3) {
   background-color: #ffffff;
   padding: 3px 10px 3px 10px;
@@ -144,9 +150,6 @@ header .barra_navegacion {
   color: black;
 }
 
-
-  color: black
-}
 
 h1,
 h2,
@@ -305,6 +308,39 @@ label {
   display: inline-block;
 }
 
+#switch{
+  display: none;
+}
+
+
+/*MODO OSCURO*/
+.dark .box {
+  background: #0d2227;
+}
+
+.dark footer {
+  background: rgb(0, 3, 10);
+}
+
+.dark body{
+  background: #101010;
+}
+
+.dark .align-items-center{
+  background: rgb(2, 17, 1);
+}
+
+.dark .col-form-label{
+  color: white;
+}
+
+.dark .content{
+  background-image: none;
+}
+
+.dark body{
+}
+
 /*FOOTER*/
 
 footer {
@@ -322,9 +358,8 @@ footer {
 }
 
 
-.container-body h1 {
-=======
 .container-body h1{
+
 
   color: white;
 }
@@ -478,10 +513,7 @@ i {
   .bg-slider-thumbs {
     bottom: 3em;
   }
-
 }
-
-
 
 /*======= Media queries (max-width: 785px) =======*/
 @media screen and (max-width: 785px) {
@@ -591,6 +623,7 @@ i {
 
   .navegacion .nav-items > a > i {
 
+
     display: inline-block;
     font-size: 1.3em;
     margin-right: 5px;
@@ -610,6 +643,6 @@ i {
     font-size: 0.9em;
   }
 
-
 }
+
 

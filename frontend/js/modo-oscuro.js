@@ -14,6 +14,7 @@ switchButtom.addEventListener("click", function () {
 
   switchButtom.classList.toggle("active");
   localStorage.setItem("switch", val);
+
 });
 
 

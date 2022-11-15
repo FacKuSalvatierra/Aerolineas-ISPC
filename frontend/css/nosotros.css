@@ -108,8 +108,30 @@ header .nav-bar {
     background-color: #ffffff;
     padding: 3px 10px 3px 10px;
     border-radius: 50px;
-    color: black
+    color: black;
 }
+
+#switch{
+    display: none;
+}
+/*MODO OSCURO*/
+.dark .tarjetas{
+    background: rgb(1, 17, 17);
+}
+
+.dark .acercade{
+    background: rgb(1, 17, 17);
+}
+
+.dark .tarjeta_integrante{
+    background: #0d2227;
+    color: white;
+}
+
+.dark footer{
+    background:rgb(0, 3, 10);
+}
+
 
 /*======= Inicio =======*/
 .acercade {

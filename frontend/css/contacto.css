@@ -1,5 +1,5 @@
 /*============ Google fonts ============*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /*======= CSS variables =======*/
 :root {
@@ -38,10 +38,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
   background-image: url("../images/vuelo_contacto.jpg");
@@ -126,14 +126,12 @@ header .barra_navegacion {
   margin-right: 45px;
 }
 
-
 .navegacion .nav-items a:nth-child(3) {
   background-color: #ffffff;
   padding: 3px 10px 3px 10px;
   border-radius: 50px;
-  color: black
+  color: black;
 }
-
 
 h1,
 h2,
@@ -292,6 +290,39 @@ label {
   display: inline-block;
 }
 
+#switch{
+  display: none;
+}
+
+
+/*MODO OSCURO*/
+.dark .box {
+  background: #0d2227;
+}
+
+.dark footer {
+  background: rgb(0, 3, 10);
+}
+
+.dark body{
+  background: #101010;
+}
+
+.dark .align-items-center{
+  background: rgb(2, 17, 1);
+}
+
+.dark .col-form-label{
+  color: white;
+}
+
+.dark .content{
+  background-image: none;
+}
+
+.dark body{
+}
+
 /*FOOTER*/
 
 footer {
@@ -308,7 +339,7 @@ footer {
   padding: 40px;
 }
 
-.container-body h1{
+.container-body h1 {
   color: white;
 }
 
@@ -374,7 +405,7 @@ i {
   padding-left: 26px;
 }
 
-.icono i:hover{
+.icono i:hover {
   color: #14b1b2;
 }
 
@@ -412,7 +443,7 @@ i {
   color: white;
 }
 
-.information a:hover{
+.information a:hover {
   color: #14b1b2;
 }
 
@@ -457,10 +488,7 @@ i {
   .bg-slider-thumbs {
     bottom: 3em;
   }
-
 }
-
-
 
 /*======= Media queries (max-width: 785px) =======*/
 @media screen and (max-width: 785px) {
@@ -567,7 +595,7 @@ i {
     color: var(--navigation-item-hover-color);
   }
 
-  .navegacion .nav-items>a>i {
+  .navegacion .nav-items > a > i {
     display: inline-block;
     font-size: 1.3em;
     margin-right: 5px;
@@ -586,7 +614,4 @@ i {
   .about p {
     font-size: 0.9em;
   }
-
-
-
 }

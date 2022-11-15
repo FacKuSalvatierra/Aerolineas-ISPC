@@ -192,6 +192,7 @@ header .barra_navegacion {
   
 }
 
+/*COLOR DE MODO OSCURO*/
 .dark .swiper-wrapper{
   background:#0d2227;
 }
@@ -790,7 +791,7 @@ footer {
   display: flex;
   float: right;
   justify-content: space-between;
-   margin-left: 103px;
+   margin-left: 96px;
 }
 
 /*======= Media queries (max-width: 1100px) =======*/

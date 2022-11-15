@@ -4,6 +4,7 @@ switchButtom.addEventListener("click", function () {
   let val = body.classList.toggle("dark");
   switchButtom.classList.toggle("active");
   localStorage.setItem("switch", val);
+
 });
 
 let valor=localStorage.getItem("switch")

@@ -5,7 +5,7 @@
 Aerolíneas CBA FLY es un proyecto de aplicación web cuya finalidad de cara al cliente, es brindar opciones de vuelos que interconecten a habitantes y potenciales pasajeros, con los destinos más destacados del mundo. 
 Lo que intentamos con este ejercicio, es adquirir experiencia en el desafiante arte de trabajar en equipo, utilizando herramientas como Github, HTML, CSS y algunos lenguajes de programación como Javascript y Python, integrados con SQL. 
 
-Video de presentacion del proyecto Aerolineas CBA FLY :  https://www.youtube.com/watch?v=oawRUpWUl_g
+Video de presentacion del proyecto Aerolineas CBA FLY : 👉🏻👉🏻  https://www.youtube.com/watch?v=oawRUpWUl_g 👈🏻👈🏻
 
 
 ## Quienes somos
